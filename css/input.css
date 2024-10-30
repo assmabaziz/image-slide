@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    .style-icon {
+        @apply absolute top-1/2 -translate-y-full h-[40px] w-[40px] rounded-full bg-[#ccc] flex justify-center items-center cursor-pointer duration-300 hover:text-white hover:bg-slate-500 z-[150]
+    }
+    .active {
+        @apply opacity-100
+    }
+    .inactive {
+        @apply opacity-0
+    }
+    button:disabled {
+        @apply opacity-30 cursor-not-allowed bg-gray-400 text-white ;
+      }
+    
+}
