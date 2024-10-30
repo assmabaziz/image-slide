@@ -656,6 +656,20 @@ button:disabled {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200\/50 {
+  background-color: rgb(226 232 240 / 0.5);
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;

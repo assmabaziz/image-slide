@@ -26,7 +26,7 @@ function uppdateSliderControl() {
   btnPrev.disabled = currentSlide == 0;
   btnNext.disabled = currentSlide == slideImages.length - 1;
 }
-slideImages.forEach((img, index) => {
+slideImages.forEach((img, index) => {https://github.com/assmabaziz/image-slide.git
   const thumbImg = img.cloneNode();
   thumbImg.classList.remove("absolute", "inset-0");
   thumbImg.style.cursor = "pointer";
